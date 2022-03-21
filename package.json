@@ -1,0 +1,33 @@
+{
+  "name": "four-card-feature-section-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run watch:all",
+    "dev": "lite-server",
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css",
+    "watch:all": "parallelshell 'npm run dev' 'npm run watch-css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamerlantian/four-card-feature-section-master.git"
+  },
+  "author": "Sebastian Hoyos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamerlantian/four-card-feature-section-master/issues"
+  },
+  "homepage": "https://github.com/tamerlantian/four-card-feature-section-master#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15",
+    "parallelshell": "^3.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
