@@ -8,14 +8,16 @@
   box-sizing: border-box; }
 
 body {
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  height: 100vh; }
 
 .container {
+  margin: 5rem auto;
   width: 90%;
-  position: absolute;
-  left: 50%;
-  top: 20%;
-  transform: translate(-50%, -20%); }
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center; }
 
 .header {
   margin-bottom: 4em;
