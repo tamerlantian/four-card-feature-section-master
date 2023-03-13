@@ -49,6 +49,7 @@ body {
   .main-card__title {
     color: #4c4e61;
     font-size: 1.2rem;
+    margin: 0;
     font-weight: 700; }
   .main-card__text {
     color: #a3a5ae;
